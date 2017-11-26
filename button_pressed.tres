@@ -1,0 +1,30 @@
+[gd_resource type="CanvasItemMaterial" load_steps=2 format=1]
+
+[sub_resource type="CanvasItemShader" id=1]
+
+_code = {
+"fragment": "uniform vec2 mouse_position = vec2(0.0, 0.0);
+uniform float length_threshold = 0.0;
+uniform float shade_factor = -0.2;
+
+float pct = distance(UV, mouse_position);
+
+if (pct < length_threshold) {
+	COLOR.rgb = COLOR.rgb * (1 - shade_factor);
+}
+",
+"fragment_ofs": 0,
+"light": "",
+"light_ofs": 0,
+"vertex": "",
+"vertex_ofs": 0
+}
+
+[resource]
+
+shader/shader = SubResource( 1 )
+shader/shading_mode = 0
+shader_param/mouse_position = Vector2( 0, 0 )
+shader_param/length_threshold = 0.0
+shader_param/shade_factor = -0.2
+
