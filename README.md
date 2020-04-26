@@ -10,7 +10,7 @@ Feel free to use it.
 
 tested on Godot 3.1.2 ~ 3.2.1
 
-Doesn't work on 3.0.6, maybe need some twearks.
+Doesn't work on 3.0.6, maybe need some tweaks.
 
 # [MIT LICENSE](./LICENSE)
 
