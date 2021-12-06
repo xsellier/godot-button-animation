@@ -6,11 +6,10 @@ Here a demo creating a circle effect on buttons using godot engine + shaders
 
 Feel free to use it.
 
-----
+## Godot versions
 
-tested on Godot 3.1.2 ~ 3.2.1
+**master** branch works for Godot 3.1.2 ~ 3.2.1
+**2.1** branch works for Godot 2.1
 
-Doesn't work on 3.0.6, maybe need some tweaks.
-
-# [MIT LICENSE](./LICENSE)
+# [LICENSE](./LICENSE)
 
